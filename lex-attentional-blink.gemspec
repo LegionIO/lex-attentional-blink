@@ -24,4 +24,5 @@ Gem::Specification.new do |spec|
   spec.metadata['rubygems_mfa_required'] = 'true'
 
   spec.files = Dir['lib/**/*']
+  spec.add_development_dependency 'legion-gaia'
 end
